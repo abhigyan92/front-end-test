@@ -18,13 +18,14 @@ body{
 }
 
 #header-content{
-	background: url('../zenith_images/banner.jpg') no-repeat;
+	background-image: url('../zenith_images/banner.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
 	margin-bottom: 30px;
 	
 }
 .tranparent-background{
-    background-color: #000;
-    opacity: 0.7;
+   background: rgba(0,0,0,0.7);
 }
 .navbar-content{
 	background-color: #848484;
